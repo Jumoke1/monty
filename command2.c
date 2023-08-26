@@ -51,7 +51,7 @@ void sub(stack_t **stack, unsigned int line_number)
 	pop(stack, line_number);
 }
 /**
- * div - function div two number
+ * my_div - function div two number
  * @stack: Stack list
  * @line_number: Number of the line
  * Return: nothing

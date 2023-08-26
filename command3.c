@@ -58,7 +58,7 @@ void pchar(stack_t **stack, unsigned int line_number)
  * pstr - Print a string.
  * @stack: stack
  * @line_number: Number of line
- * @Return: nothing
+ * Return: nothing
  */
 void pstr(stack_t **stack, unsigned int line_number)
 {
