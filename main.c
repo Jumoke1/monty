@@ -62,6 +62,7 @@ void read_line(FILE *file)
 		}
 		opcode_functions(command, &stack, line_number);
 	}
+	free_stack(&stack);
 }
 /**
  * push - pushes a node to the top of stack
